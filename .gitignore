@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+katana_venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Output / generated data
+*.csv
+outputcsv/
+*.log
+
+# Local settings and config
+*.env
+config.py  # Only if it contains secrets or local settings
+
+# VS Code settings
+.vscode/
+
+# Docker
+.dockerignore
+Dockerfile
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git
+*.swp
+*.swo
